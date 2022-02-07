@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 300px 0 100px 0;
+  background-image: url('https://github.com/RAQAM12/raka-varra.github.io/blob/main/Kue-Lebaran%20background.jpg?raw=true');
+  background-size: cover;
+  color: #f5c423e3;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 100;
+  font-size: 70px;
+  letter-spacing: 10px;
+  margin-bottom: 15px;
+  text-shadow: 4px 6px 8px #1d1d1d;
+}
+
+.top-wrapper p {
+  opacity: 100%;
+  margin-bottom: 3px;
+  color:#ffe920;
+  font-size: 20px;
+  font-style: italic;
+  text-shadow: 6px 4px 2px #1d1d1d;
+}
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+.Instagram {
+  background: linear-gradient(150deg,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
+  margin-right: 10px;
+}
+.WhatsApp {
+  background-color: #25D366;
+  margin-right: 10px;
+}
+
+.Shoppe {
+  background-color: #f16d00;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #ffc800;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 80px;
+  margin-top: -5px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 88%;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background-color: #f5c423e3;
+  font-size: 20px;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 25px;
+  font-size: 19px;
+  color: #000000;
+}
+
+.heading h3 {
+  font-weight: normal;
+  font-size: 50px;
+}
+.heading h4 {
+  font-size: 60px;
+}
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 40px 100px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  font-size: 30px;
+}
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 100px;
+}
+
+footer p {
+  color: #000000;
+  font-size: 20px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  .heading h2 {
+    font-size: 20px;
+  }
+  .lesson {
+   width: 50%;
+   margin-bottom: 50px;
+   }
+}
+@media all and (max-width: 670px) {
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .top-wrapper h1 {            
+    font-size: 24px;            
+    line-height: 36px;            
+  }            
+  .top-wrapper p {            
+    font-size: 14px;            
+    line-height: 20px;            
+  }
+  .lesson {
+    width: 100%;
+  }
+  footer {
+    text-align: right;
+  }
+}
